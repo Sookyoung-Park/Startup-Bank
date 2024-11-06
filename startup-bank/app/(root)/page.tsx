@@ -6,9 +6,9 @@ export default async function Home ({searchParams}:{
 }) {
   const query= (await searchParams).query
   const posts =[{
-    _createdAt: "Yesterday",
+    _createdAt: new Date(),
     views: 101,
-    author: {_id:1},
+    author: {_id:1, name:'James Doe'},
     description: "This is test",
     image: "https://cdn.pixabay.com/photo/2018/04/04/13/38/nature-3289812_960_720.jpg",
     category: "Robots",
