@@ -36,21 +36,16 @@ export default async function Home ({searchParams}:{
         {query ? `Search Results for "${query}"` :'Recommended Startups'}
       </p>
       <ul className="card_grid mt-7">
-
+        {posts?.length >0 ? (
+          posts.map((post: StartupCardType)=>(
+            <StartupCard key={post?._id} post={post}/>
+          ))
+        ):(
+          <p className="no-result">
+            No Startup Found
+          </p>
+        )}
       </ul>
-      {posts?.length >0 ? (
-        posts.map((post: StartupCardType)=>(
-          <StartupCard key={post?._id} post={post}/>
-        ))
-      ):(
-        <p className="no-result">
-          No Startup Found
-        </p>
-      )}
-      {/* <div className="card_grid card_grid-sm">
-        hi
-      </div> */}
-
     </section>
     
     </>
