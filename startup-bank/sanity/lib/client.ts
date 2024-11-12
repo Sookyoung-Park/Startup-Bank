@@ -7,5 +7,5 @@ export const client = createClient({
   dataset,
   apiVersion,
   // setting for always users get a new data(contents)
-  useCdn: false, // Set to false if statically generating pages, using ISR or tag-based revalidation
+  useCdn: true, // Set to false if statically generating pages, using ISR or tag-based revalidation
 })
