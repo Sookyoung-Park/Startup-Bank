@@ -25,9 +25,13 @@ const StartupForm = () => {
                 link: formData.get("link") as string,
                 pitch,
             }
+            
+            // here is the problem
             await formSchema.parseAsync(formValues)
 
             console.log('this is here: ',formValues)
+
+            
 
             // if(result.status === 'SUCCESS'){
             //     toast({
