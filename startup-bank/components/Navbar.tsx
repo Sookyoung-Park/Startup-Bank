@@ -9,11 +9,11 @@ const Navbar = async() => {
     const session = await auth()
 
     return (
-        <header className="px-5 py-3 bg-white shadow-sm font-roboto text-black">
+        <header className="px-5 py-3 bg-white shadow-sm font-roboto text-black sticky top-0 z-50">
             <nav className='flex justify-between items-center'>
                 <Link href="/">
                 <Image
-                    src="/startup-bank-logo.png"
+                    src="/startup-bank-logo4.svg"
                     width={142}
                     height={30}
                     alt="startup-bank-logo"

@@ -71,6 +71,10 @@
         @apply font-normal text-sm text-black-300;
     }
 
+    .text-12-medium {
+        @apply font-medium text-sm text-black-200;
+    }
+
     .text-12-normal {
         @apply font-normal text-sm text-black-200;
     }
