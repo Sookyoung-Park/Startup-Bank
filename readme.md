@@ -9,41 +9,43 @@
 </div>
 
 
-<!-- # 💶 Fintech Bank Application 
-Sign In/Up Pages with Dashboard
+# 💶 Startup Bank
+Fullstack project of Startup Pitchs Bank
 
 ## **Introduction**
 
-Built with a sign in/up flows and dashboard using Next.js and backend with Appwrite. It is a financial SaaS platform that connects to multiple bank accounts, displays transactions in real-time, allows users to transfer money to other platform users, and manages their finances altogether.
+A Next.js 15 platform where entrepreneurs can submit their startup pitches, browse other pitches, and gain exposure through a clean minimalistic design for a smooth user experience.
 
-<a href="https://drive.google.com/file/d/1Lt2vFWM0jzQg4S8wrYMQ8SDTOPX5DOa7/view?usp=sharing">Please check the deployed website here!</a>
+
+<!-- <a href="https://drive.google.com/file/d/1Lt2vFWM0jzQg4S8wrYMQ8SDTOPX5DOa7/view?usp=sharing">Please check the deployed website here!</a> -->
 
 ## **Tech Stack**
 
 - Next.js
+- React
 - TypeScript
-- Appwrite
-- Plaid
-- Dwolla
 - TailwindCSS
-- Chart.js
 - ShadCN
+- Sanity
 
 
 ## **Main Features**
-- Authentication: An ultra-secure SSR authentication with proper validations and authorization using Appwrite
-- Connect Banks: Integrates with Plaid for multiple bank account linking
--  Home Page: Shows general overview of user account with total balance from all connected banks.
--  Precised Pixel Perfect Design
-- Responsive design on any device and screen size
+- **GitHub Authentication:** Allows users to log in easily using their GitHub account.
+- **Live Content API:** Displays the latest startup ideas dynamically on the homepage using Sanity's Content API.
+- **Filter feature:** Browse through pitches with filtering options by category.
+- **Editor Picks:** Admins can highlight top startup ideas using the "Editor Picks" feature managed via Sanity Studio.
+- **Views Tracker:** Tracks the number of views for each pitch instead of an upvote system.
+- **Search Functionality**
+
 
 
 ## **Usage**
 - **Cloning the Repository**
 
 ```bash
-git clone git@github.com:Sookyoung-Park/Feast-Saas-Website.git
-cd Feast-Saas-Website
+git clone git@github.com:Sookyoung-Park/Startup-Bank.git
+cd Startup-Bank
+cd startup-bank
 ```
 
 - **Installation**
@@ -54,13 +56,28 @@ Install the project dependencies using npm:
 npm install
 ```
 
+- **Set Up Environment Variables**
+
+Create a new file named .env.local in the root of your project and add the following content:
+
+```bash
+NEXT_PUBLIC_SANITY_PROJECT_ID=
+NEXT_PUBLIC_SANITY_DATASET=
+NEXT_PUBLIC_SANITY_API_VERSION='vX'
+SANITY_TOKEN=
+
+AUTH_SECRET= 
+AUTH_GITHUB_ID=
+AUTH_GITHUB_SECRET=
+```
+
 - **Running the Project**
 
 ```bash
 npm run dev
 ```
 
-
+<!-- 
 ## **Screenshots**
 ![Screenshot1](https://github.com/Sookyoung-Park/Banking-App/blob/main/banking-app/public/icons/bankingapp-signin.png?raw=true)
 ![Screenshot2](https://github.com/Sookyoung-Park/Banking-App/blob/main/banking-app/public/icons/bankingapp-signup.png?raw=true) -->
