@@ -15,8 +15,13 @@ const config: Config = {
             },
             colors: {
                 primary: {
-                    "100": "#FFE8F0",
-                    DEFAULT: "#EE2B69",
+                    // light blue - tag
+                    "100": "#BDEBFF",
+                    // saturated blue for stroke
+                    "200":"3F4875",
+                    "300": '#233073',
+                    // deep blue
+                    DEFAULT: "#3F50A5",
                 },
                 secondary: "#FBE843",
                 black: {
@@ -27,11 +32,13 @@ const config: Config = {
                 },
                 white: {
                     "100": "#F7F7F7",
+                    // subheading
+                    "200":"#ADB1C6",
                     DEFAULT: "#FFFFFF",
                 },
             },
             fontFamily: {
-                "work-sans": ["var(--font-work-sans)"],
+                "roboto": ["var(--font-roboto)"],
             },
             borderRadius: {
                 lg: "var(--radius)",
@@ -41,7 +48,7 @@ const config: Config = {
             boxShadow: {
                 100: "2px 2px 0px 0px rgb(0, 0, 0)",
                 200: "2px 2px 0px 2px rgb(0, 0, 0)",
-                300: "2px 2px 0px 2px rgb(238, 43, 105)",
+                300: "2px 2px 0px 2px rgb(173, 177, 198)",
             },
         },
     },
