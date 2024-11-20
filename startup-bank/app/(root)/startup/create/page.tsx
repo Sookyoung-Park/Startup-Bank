@@ -10,8 +10,8 @@ const page = async() => {
     }
     return (
         <>
-            <section className='pink_container'>    
-                <h1 className="heading">Submit your Pitch Idea</h1>
+            <section className='create-pink_container'>    
+                <h1 className="create-heading">Submit your Pitch Idea</h1>
             </section>
             <StartupForm/>
         </>

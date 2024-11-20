@@ -26,12 +26,12 @@ const StartupCard = ({post}:{post: StartupTypeCard}) => {
             <div className="flex-between mt-5 gap-5">
                 <div className='flex-1'>
                     <Link href={`/startup/${_id}`}>
-                        <h3 className="text-26-semibold line-clamp-1">
+                        <h3 className="text-24-semibold line-clamp-1">
                             {title}
                         </h3>
                     </Link>
                     <Link href={`/users/${author?._id}`}>
-                        <p className="text-16-medium line-clamp-1">
+                        <p className="text-12-normal-name line-clamp-1">
                             {author?.name}
                         </p>
                     </Link>
@@ -64,11 +64,11 @@ const StartupCard = ({post}:{post: StartupTypeCard}) => {
             <div className="flex-between gap-3 mt-5">
                 <Link
                     href={`/?query=${category?.toLowerCase()}`}>
-                        <p className="text-16-medium">{category}</p>
+                        <p className="text-12-normal post-tag">{category}</p>
                 </Link>
                 <Button className='startup-card_btn' asChild>
                     <Link href={`/startup/${_id}`}>
-                        Details
+                        View More
                     </Link>
 
                 </Button>

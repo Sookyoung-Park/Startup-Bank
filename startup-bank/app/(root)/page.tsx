@@ -30,7 +30,7 @@ export default async function Home ({searchParams}:{
     </section>
 
     <section className="section_container">
-      <p className="text-30-semibold">
+      <p className="text-28-semibold mt-6 max-sm:mt-3 max-sm:text-26-semibold">
         {query ? `Search Results for "${query}"` :'Recommended Startups'}
       </p>
       <ul className="card_grid mt-7">
