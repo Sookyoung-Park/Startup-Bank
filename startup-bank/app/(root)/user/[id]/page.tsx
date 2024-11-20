@@ -24,11 +24,6 @@ const page = async ({params}: {params:Promise<{id:string}>}) => {
     <>
         <section className="profile_container">
             <div className="profile_card">
-                <div className="profile_title">
-                    <h3 className="text-24-black uppercase text-center line-clamp-1">
-                        {user.name}
-                    </h3>
-                </div>
                     <Image
                         src={user.image}
                         alt={user.name}
@@ -36,13 +31,18 @@ const page = async ({params}: {params:Promise<{id:string}>}) => {
                         height={220}
                         className="profile_image"
                     />
-                    <p className="text-30-extrabold mt-7 text-center">
+                    <h3 className="text-28-semibold uppercase text-center line-clamp-1 mt-7">
+                        {user.name}
+                    </h3>
+                    <p className="text-20-medium text-center">
                         @{user?.username}
                     </p>
-                    <p className="mt-1 text-center text-14-normal">
+                    <p className="mt-6 text-center text-14-normal">
                         {user?.bio}
                     </p>
                 </div>
+
+                
 
                 <div className="flex-1 flex flex-col gap-5 lg:-mt-5">
                     <p className="text-30-bold">
