@@ -1,4 +1,4 @@
-<!-- ![LandingPage](https://github.com/Sookyoung-Park/Banking-App/blob/main/banking-app/public/icons/bankingapp-moneyshot.png?raw=true) -->
+![LandingPage](https://github.com/Sookyoung-Park/Startup-Bank/blob/main/startup-bank/public/startupbank-mockup-1.png?raw=true)
 
 <div>
     <img src="https://img.shields.io/badge/-Fullstack-black?style=for-the-badge&logoColor=white&logo=javascript&color=000000" alt="Fullstack" />
@@ -77,7 +77,7 @@ AUTH_GITHUB_SECRET=
 npm run dev
 ```
 
-<!-- 
+
 ## **Screenshots**
-![Screenshot1](https://github.com/Sookyoung-Park/Banking-App/blob/main/banking-app/public/icons/bankingapp-signin.png?raw=true)
-![Screenshot2](https://github.com/Sookyoung-Park/Banking-App/blob/main/banking-app/public/icons/bankingapp-signup.png?raw=true) -->
+![Screenshot1](https://github.com/Sookyoung-Park/Startup-Bank/blob/main/startup-bank/public/startupbank-mockup-13png.png?raw=true)
+![Screenshot2](https://github.com/Sookyoung-Park/Startup-Bank/blob/main/startup-bank/public/startupbank-mockup-2.png?raw=true)
